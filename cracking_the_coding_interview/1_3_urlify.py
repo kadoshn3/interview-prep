@@ -1,7 +1,7 @@
 #!/Users/neevekadosh/anaconda3/bin/python3
 
-def urlify(str1):
-    return str1.replace(" ", "%20")
+def urlify(str):
+    return str.replace(" ", "%20")
 
 if __name__=='__main__':
     # Replace spaces with %20 - should all return True
